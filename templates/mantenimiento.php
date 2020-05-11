@@ -66,7 +66,7 @@ inmuebles, con el apoyo de personal calificado para garantizar su satisfacción,
 errores y minimizando sus gastos administrativos. 
 <span>SI DESEA RECIBIR INFORMACIÓN DETALLADA, UNA COTIZACIÓN O SOLICITAR ESTE SERVICIO</span></h3>
 <div class="center">
-    <a href="#contacto" id="paralelogramo" class="forma rojo"> <span>Contáctenos</span></a>
+    <a href="https://grupocosisa.com/#contacto" id="paralelogramo" class="forma rojo"> <span>Contáctenos</span></a>
 </div>
 </div>
 </section>

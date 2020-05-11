@@ -83,7 +83,7 @@ lleno de vida y libre de plagas, para que sea un espacio para el
 disfrute en todos los sentidos.  
 <span>SI DESEA RECIBIR INFORMACIÓN DETALLADA, UNA COTIZACIÓN O SOLICITAR ESTE SERVICIO</span></h3>
 <div class="center">
-    <a href="#contacto" id="paralelogramo" class="forma rojo"> <span>Contáctenos</span></a>
+    <a href="https://grupocosisa.com/#contacto" id="paralelogramo" class="forma rojo"> <span>Contáctenos</span></a>
 </div>
 </div>
 </section>

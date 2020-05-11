@@ -14,9 +14,9 @@
                     <h1><div class="sombra">¡SU EMPRESA </div><span class="azul">MERECE LO MEJOR!</span></h1>
   <hr>
   <p class="blanco">En Grupo Cosisa le ofrecemos soluciones integrales a la medida de sus necesidades ¡Conozca todos nuestros servicios!</p>
- 
-     <a href="#contacto" id="paralelogramo" class="forma "> <span>Ver Servicios</span></a>
-     
+ <div class="cent">
+     <a href="https://grupocosisa.com/servicios/" id="paralelogramo" class="forma "> <span>Ver Servicios</span></a>
+     </div>
     
                 </div>
                 </div>
@@ -44,7 +44,9 @@
                    <div class="fondo">
                     <h2> <div class="rojo">Somos</div> Grupo COSISA®</h2>
                     <p>Una empresa 100% mexicana con más de 15 años en el mercado. Ofrecemos servicios que se ajustan a la medida de cada uno de nuestros clientes con atención las 24horas del día y cobertura en todo el territorio de México.</p>
-                    <a href="#contacto" id="paralelogramo" class="forma rojo"> <span>Saber Más</span></a>
+                    <div class="cent">
+                    <a href="https://grupocosisa.com/qs/" id="paralelogramo" class="forma rojo"> <span>Saber Más</span></a>
+                       </div>
                 </div>
                 </div>
                 <div class="col prueba_col">
@@ -71,27 +73,35 @@
    <div class="contenedor2">
    <div class="grid">
 
-                <div class="col3 fon1">
+            <a href="https://grupocosisa.com/servicios/">  <div class="col3 fon1">
                    <h3>Servicio de
 LIMPIEZA DE
 INMUEBLES</h3>
                 </div>
+                </a>  
+                <a href="https://grupocosisa.com/mantenimiento-2/"> 
                 <div class="col3 fon2">
                    <h3>Servicio de
 MANTENIMIENTO 
 DE INMUEBLES</h3>
                 </div>
+       </a>
+               <a href="https://grupocosisa.com/jardineria-2/">
                 <div class="col3 fon3">
                    <h3>Servicio de JARDINERÍA,
 MANTENIMIENTO
 DE ÁREAS VERDES 
 Y PÉTREAS</h3>
                 </div>
+                </a>
+                <a href="https://grupocosisa.com/transporte">
        <div class="col3 fon4">
-                   <h3>Servicio de SEGURIDAD
-Y VIGILANCIA PRIVADA</h3>
+                   <h3>Servicio de TRANSPORTE
+DE MERCANCÍAS, 
+MEDICAMENTOS Y PIPAS
+DE AGUA POTABLE.</h3>
                 </div>
-       
+       </a>
 
 
             </div>
@@ -100,7 +110,7 @@ Y VIGILANCIA PRIVADA</h3>
           
             <p>Si deseas recibir una cotización rápida del servicio que necesitas haz clic en “QUIERO" </p>
             <div class="center">
-             <a href="#contacto" id="paralelogramo" class="forma rojo"> <span>¡Quiero cotizar!</span></a>
+             <a href="https://grupocosisa.com/cotizador/" id="paralelogramo" class="forma rojo"> <span>¡Quiero cotizar!</span></a>
              </div>
         </div>
     </section>
@@ -109,7 +119,7 @@ Y VIGILANCIA PRIVADA</h3>
      <h2><div class="rojo">Ventajas de</div> CONTRATARNOS</h2>
     <?php echo do_shortcode( '[slide-anything id="29"]' ); ?>
     <div class="center">
-             <a href="#contacto" id="paralelogramo" class="forma blanco"> <span>Saber más</span></a>
+             <a href="https://grupocosisa.com/ventaja/" id="paralelogramo" class="forma blanco"> <span>Saber más</span></a>
              </div>
     </div>
     </section>
@@ -144,7 +154,7 @@ OHSAS 18001:2007</p>
   <p>Contamos con convertura en toda la República Mexicana.</p>
 </div>
     <div class="center">
-             <a href="#contacto" id="paralelogramo" class="forma rojo"> <span>¡Quiero cotizar!</span></a>
+             <a href="https://grupocosisa.com/cotizador/" id="paralelogramo" class="forma rojo"> <span>¡Quiero cotizar!</span></a>
              </div>
     </div>
     </section>
@@ -164,13 +174,15 @@ OHSAS 18001:2007</p>
         </p>
         
 
- <div class="grid">
+ <div class="grid ">
        
    
      <div class="col col_especial2">
+     <div class="brind">
      <h3>¡BRINDAMOS SOLUCIONES PARA SU EMPRESA!</h3>
      <p>Contamos con un centro de atención a clientes para brindar una solución precisa con el soporte de los departamentos y áreas involucradas dentro de la organización.</p>
-     <div class="grid" >
+     </div>
+     <div class="grid2 contac" >
        <div class="col3 datos">
         <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/horario.png" alt="Logo">
         
@@ -178,6 +190,8 @@ OHSAS 18001:2007</p>
         <div class="col3 datos">
     <p class="bl2">L - D / 24hrs</p>
         </div>
+         </div>
+          <div class="grid2 contac" >
         <div class="col3 datos">
         <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/whats.png" alt="Logo">
         
@@ -206,7 +220,7 @@ OHSAS 18001:2007</p>
       <div class="col col_especial">
   
     <?php echo do_shortcode( '[caldera_form id="CF5e6806b653ad5"]' ); ?>
-       <a href="#contacto" id="paralelogramo" class="forma "> <span>¡Quiero ser PROVEEDOR!</span></a>
+       <a href="https://grupocosisa.com/proveedor/" id="paralelogramo" class="forma "> <span>¡Quiero ser PROVEEDOR!</span></a>
      </div>
 </div>
      </div>

@@ -86,13 +86,15 @@
         </p>
         
 
- <div class="grid">
+ <div class="grid ">
        
    
      <div class="col col_especial2">
+     <div class="brind">
      <h3>¡BRINDAMOS SOLUCIONES PARA SU EMPRESA!</h3>
      <p>Contamos con un centro de atención a clientes para brindar una solución precisa con el soporte de los departamentos y áreas involucradas dentro de la organización.</p>
-     <div class="grid" >
+     </div>
+     <div class="grid2 contac" >
        <div class="col3 datos">
         <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/horario.png" alt="Logo">
         
@@ -100,6 +102,8 @@
         <div class="col3 datos">
     <p class="bl2">L - D / 24hrs</p>
         </div>
+         </div>
+          <div class="grid2 contac" >
         <div class="col3 datos">
         <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/whats.png" alt="Logo">
         
@@ -127,8 +131,8 @@
      </div>
       <div class="col col_especial">
   
-    <?php echo do_shortcode( '[caldera_form id="CF5e14ef6d8486d"]' ); ?>
-       <a href="#contacto" id="paralelogramo" class="forma "> <span>¡Quiero ser PROVEEDOR!</span></a>
+    <?php echo do_shortcode( '[caldera_form id="CF5e6806b653ad5"]' ); ?>
+       <a href="https://grupocosisa.com/proveedor/" id="paralelogramo" class="forma "> <span>¡Quiero ser PROVEEDOR!</span></a>
      </div>
 </div>
      </div>

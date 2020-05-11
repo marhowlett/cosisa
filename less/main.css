@@ -52,7 +52,36 @@
   max-width: 100%;
   width: 100%;
 }
+span.nav-link-text {
+  color: #16254c;
+  font-family: 'Akrobat';
+  font-size: 18px;
+}
+span.nav-link-text:hover {
+  color: #e40000;
+}
+.main-page-wrapper {
+  padding-top: inherit;
+  margin-top: -40px;
+  background-color: #fff;
+}
+.nav-shop {
+  visibility: hidden;
+}
 /*Esquema por defecto para las secciones*/
+body.page-id-9 .row,
+body.page-id-105 .row,
+body.page-id-126 .row,
+body.page-id-109 .row,
+body.page-id-121 .row,
+body.page-id-126 .row,
+body.page-id-100 .row,
+body.page-id-107 .row,
+body.page-id-111 .row,
+body.page-id-102 .row,
+body.page-id-98 .row {
+  display: inherit!important;
+}
 .grid {
   display: flex;
 }
@@ -68,9 +97,11 @@
 .grid .col4 {
   width: 20%;
 }
-.row {
-  display: -ms-flexbox;
-  display: inherit!important;
+.grid2 {
+  display: flex;
+}
+.grid2 .col3 {
+  width: 25%;
 }
 /*Ajuste general*/
 body .contenedor {
@@ -227,7 +258,8 @@ body .contenedor2 {
 }
 .template-section #fld_659548_2,
 .template-section #fld_2613665_1,
-.template-section #fld_5450434_1 {
+.template-section #fld_5450434_1,
+.template-section #fld_659548_1 {
   background: #bdc3c7;
   -webkit-transform: skew(-20deg);
   -moz-transform: skew(-20deg);
@@ -242,9 +274,13 @@ body .contenedor2 {
 }
 .template-section #fld_659548_2:hover,
 .template-section #fld_2613665_1:hover,
-.template-section #fld_5450434_1:hover {
+.template-section #fld_5450434_1:hover,
+.template-section #fld_659548_1:hover {
   background: #16254c;
   color: white;
+}
+hr {
+  width: 154px;
 }
 #banner1 {
   background: url(../img/banner1.jpg) center no-repeat;
@@ -273,11 +309,11 @@ body .contenedor2 {
 #banner1 hr {
   border: 3px solid white;
   /* margin-left: 350px; */
-  margin-right: 319px;
+  margin-right: 286px;
   position: relative;
-  top: -219px;
+  top: -47px;
   left: 4px;
-  width: 129px;
+  width: 154px;
 }
 #banner1 p {
   text-align: justify;
@@ -300,6 +336,8 @@ body .contenedor2 {
 }
 #servicios h3 {
   font-size: 25px;
+  position: relative;
+  top: 15px;
 }
 #servicios .ban {
   max-width: 410px;
@@ -335,8 +373,6 @@ body .contenedor2 {
   margin-left: 115px;
   line-height: 35px;
   margin-top: 15px;
-  position: relative;
-  top: 15px;
 }
 #servicios .fon2 {
   background: url(../img/f2.png) center no-repeat;
@@ -380,7 +416,7 @@ body .contenedor2 {
   margin-left: 115px;
   line-height: 35px;
   margin-top: 15px;
-  font-size: 24px;
+  font-size: 16px;
 }
 #ventaja {
   background-color: #16254c;
@@ -408,6 +444,7 @@ body .contenedor2 {
 #contacto .caldera-grid .form-control,
 #contacto .caldera-grid .form-control::placeholder {
   font-family: 'Akrobat';
+  font-size: 17px;
 }
 #contacto .col_especial2 {
   padding: inherit;
@@ -485,6 +522,7 @@ body .contenedor2 {
   background-color: #ededed !important;
   border: 2px solid;
   border-color: #9e9e9e !important;
+  font-size: 1.2em;
 }
 #contacto .caldera-grid .form-control::placeholder {
   color: #9e9e9e !important;
@@ -565,6 +603,9 @@ body .contenedor2 {
   text-align: justify;
 }
 /***VENTAJA****/
+#ventajacontratar .segundaparte {
+  margin-top: 175px;
+}
 #ventajacontratar .ban {
   max-width: 412px;
   position: relative;
@@ -578,6 +619,11 @@ body .contenedor2 {
   position: relative;
   top: 50px;
   left: 4px;
+}
+#ventajacontratar .cont {
+  max-width: 1500px;
+  width: 100%;
+  margin: 0 auto;
 }
 #ventajacontratar .col {
   min-height: inherit;
@@ -593,7 +639,7 @@ body .contenedor2 {
 }
 #ventajacontratar img.dos {
   position: relative;
-  top: 60px;
+  top: -20px;
 }
 #ventajacontratar ul.dos {
   position: relative;
@@ -610,6 +656,11 @@ body .contenedor2 {
 }
 #interesado {
   padding: inherit;
+}
+#interesado .cont {
+  max-width: 1500px;
+  width: 100%;
+  margin: 0 auto;
 }
 #interesado .min {
   max-width: 500px;
@@ -661,12 +712,20 @@ body .contenedor2 {
 #factor .fondo {
   padding: 80px;
 }
+#factor .fondo2 {
+  padding: 0px 80px;
+  max-width: 650px;
+}
 #factor p {
   text-align: justify;
 }
 #factor .ban {
   max-width: 410px;
   position: relative;
+}
+#factor img.transporte2 {
+  position: relative;
+  top: 140px;
 }
 #factor hr {
   border: 3px solid #16254c;
@@ -821,6 +880,9 @@ body .contenedor2 {
   /**proveedor**/
   /**fin**/
 }
+#cotizar img.so {
+  max-width: fit-content;
+}
 #cotizar .col {
   min-height: inherit;
   padding: inherit;
@@ -831,8 +893,9 @@ body .contenedor2 {
 #cotizar div#fld_5450434_1-wrap {
   position: relative;
   float: right;
-  left: 405px;
-  top: -179px;
+  left: 484px;
+  top: -186px;
+  z-index: 99999;
 }
 @media (min-width: 768px) {
   #cotizar .caldera-grid .col-sm-6,
@@ -849,6 +912,7 @@ body .contenedor2 {
 #cotizar .caldera-grid .form-control::placeholder {
   font-family: 'Akrobat';
   font-weight: 800;
+  font-size: 17px;
 }
 #cotizar .caldera-grid .form-control {
   max-width: 100%;
@@ -969,14 +1033,69 @@ body .contenedor2 {
   position: relative;
   top: -20px;
 }
-#telefono img.alignnone.size-full.whats.wp-image-85 {
-  right: 136px;
+#telefono img.whats {
+  right: 170px;
   position: relative;
-  margin-top: -80px;
+  margin-top: 37px;
 }
 #telefono .numero {
   position: relative;
   left: 22px;
+}
+#telefono h3 {
+  font-weight: initial;
+  color: white;
+}
+#telefono h3 strong {
+  font-weight: bolder;
+}
+#telefono h3 span {
+  display: block;
+  font-weight: bolder;
+}
+#telefono h3.numero.blanco {
+  color: white;
+}
+#telefono .num {
+  position: relative;
+  left: 10px;
+}
+#telefono span.abajo {
+  display: block;
+}
+/**transporte**/
+#banner9 {
+  background: url(../img/banner9.jpg) center no-repeat;
+  background-size: cover;
+  height: 800px;
+}
+#banner9 h1 {
+  text-align: center;
+}
+#banner9 h1 .azul {
+  position: relative;
+  top: -14px;
+  left: 12px;
+}
+#banner9 h1 .sombra {
+  text-shadow: 2px 2px rgba(0, 0, 0, 0.35);
+}
+#banner9 .rojo {
+  position: relative;
+  top: 20px;
+}
+#banner9 p {
+  text-align: center;
+}
+#banner9 .cen {
+  position: relative;
+  top: 310px;
+}
+@media screen and (max-width: 1570px) {
+  #factor img.transporte2 {
+    position: relative;
+    top: 180px;
+  }
 }
 @media screen and (max-width: 750px) {
   /*LOGO*/
@@ -1006,6 +1125,27 @@ body .contenedor2 {
   .grid.invertido {
     flex-wrap: wrap-reverse;
   }
+  #telefono h3 {
+    font-weight: 900;
+  }
+  #telefono h3.numero.blanco {
+    font-weight: 900;
+    color: #16254c;
+    font-size: 16px;
+  }
+  #telefono .numero {
+    position: relative;
+    left: 8px;
+  }
+  .offcanvas-sidebar-mobile .woodmart-sticky-sidebar-opener {
+    display: none;
+  }
+  .whb-row.whb-top-bar.whb-not-sticky-row.whb-with-bg.whb-without-border.whb-color-dark.whb-flex-equal-sides {
+    background-color: white;
+  }
+  .whb-row.whb-general-header.whb-not-sticky-row.whb-without-bg.whb-without-border.whb-color-dark.whb-flex-equal-sides {
+    background-color: #16254c;
+  }
   .template-section a.btn {
     margin: 0 auto;
     display: block;
@@ -1019,17 +1159,57 @@ body .contenedor2 {
     padding: 20px;
   }
   .template-section h1 {
-    font-size: 45px;
+    font-size: 60px!important;
   }
+  .template-section h1 .azul,
   .template-section h1 .rojo {
-    color: #e40000;
-    font-size: 40px;
-    display: block;
+    font-size: 40px!important;
+  }
+  .template-section h2 {
+    font-size: 50px;
+  }
+  .template-section h2 .azul,
+  .template-section h2 .rojo {
+    font-size: 40px!important;
   }
   .template-section p,
   .template-section ul {
     color: #343434;
     font-size: 1.3em;
+  }
+  .header-categories-nav,
+  .search-button > a,
+  .site-logo,
+  .whb-column .woodmart-search-form,
+  .whb-column > .info-box-wrapper,
+  .whb-column > .woodmart-button-wrapper,
+  .whb-column > .woodmart-social-icons,
+  .whb-html-block-element,
+  .whb-text-element,
+  .woodmart-burger-icon,
+  .woodmart-compare-info-widget > a,
+  .woodmart-shopping-cart > a,
+  .woodmart-wishlist-info-widget > a {
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-right: -9px;
+  }
+  .whb-scroll-stick .woodmart-logo img {
+    width: 50%;
+    position: relative;
+    top: -28px;
+    /* margin-left: 20px; */
+    padding-left: 9px;
+    padding-top: 0;
+    transform: scale(2) translateY(15px);
+  }
+  .woodmart-burger-icon .woodmart-burger,
+  .woodmart-burger-icon .woodmart-burger::after,
+  .woodmart-burger-icon .woodmart-burger::before {
+    display: inline-block;
+    width: 18px;
+    height: 2px;
+    background-color: white;
   }
   /**SERVICIO DE LIMPIEZA**/
   #banner3 {
@@ -1040,13 +1220,228 @@ body .contenedor2 {
     position: relative;
     top: auto;
   }
+  .cent {
+    text-align: center;
+  }
+  /**INICIO**/
+  #banner1 {
+    background: url(../img/banner1movil.jpg) center no-repeat;
+    background-size: cover;
+    height: 1000px;
+  }
+  #banner1 .ban {
+    max-width: inherit;
+    position: relative;
+    float: right;
+    right: 0px;
+    top: 536px;
+  }
+  #banner1 p {
+    text-align: center;
+  }
+  #servicios .ban {
+    max-width: inherit;
+    position: relative;
+    padding-left: 30px;
+  }
+  #contacto hr {
+    top: 0px;
+  }
+  #contacto h2 {
+    text-align: center;
+  }
+  #contacto p.social {
+    position: relative;
+    float: right;
+    margin-top: -200px;
+    margin-right: 13px;
+  }
+  #contacto .col_especial2 {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+  /**servicios*/
+  #banner3 .cen {
+    position: relative;
+    top: 216px;
+  }
+  #factor .fondo {
+    padding: 10px;
+  }
+  #final h3 {
+    font-size: 30px;
+    text-align: center;
+    padding: 10px;
+  }
+  /**QS**/
+  #banner2 {
+    background: url(../img/banner2movil.jpg) center no-repeat;
+    background-size: cover;
+    height: 1090px;
+  }
+  #banner2 .ban {
+    max-width: 446px;
+    position: relative;
+    float: inherit;
+    right: 0px;
+    top: 468px;
+  }
+  #banner2 hr {
+    margin-left: auto;
+  }
+  #propuesta .fondo {
+    padding-left: 0px;
+  }
+  #ventaja {
+    margin-bottom: 75px;
+  }
+  /**mantenimiento*/
+  #banner5 {
+    background: url(../img/banner5movil.jpg) center no-repeat;
+    background-size: cover;
+    /* height: 800px; */
+    height: 575px;
+  }
+  #banner5 .cen {
+    position: relative;
+    top: 245px;
+  }
+  #personal {
+    margin-top: 40px;
+    padding: 10px;
+  }
+  #factor3 .fondo {
+    padding: 10px;
+  }
+  /**JARDINERIA*/
+  #banner6 {
+    background: url(../img/banner6movil.jpg) center no-repeat;
+    background-size: cover;
+    height: 575px;
+  }
+  #banner6 .cen {
+    position: relative;
+    top: 30px;
+  }
+  #factor3 .colespe1 {
+    width: 100%;
+  }
+  #factor3 .colespe1 img {
+    display: block;
+    margin: auto;
+  }
+  #factor3 .colespe2 {
+    width: 100%;
+    padding: 20px;
+  }
+  /**seguridad*/
+  #banner4 {
+    background: url(../img/banner4movil.jpg) center no-repeat;
+    background-size: cover;
+    height: 575px;
+  }
+  #banner4 .cen {
+    position: relative;
+    top: 170px;
+  }
+  #factor2 .fondo {
+    padding: 10px;
+  }
+  /**transporte*/
+  #banner9 {
+    background: url(../img/banner9movil.jpg) center no-repeat;
+    background-size: cover;
+    height: 575px;
+  }
+  #banner9 .cen {
+    position: relative;
+    top: 35px;
+  }
+  #banner9 #factor .fondo2 {
+    padding: 10px;
+  }
+  #banner9 #factor img.transporte2 {
+    position: relative;
+    top: 10px;
+  }
+  #ventajacontratar hr {
+    margin-right: auto;
+  }
+  #ventajacontratar .ban {
+    max-width: 412px;
+    position: relative;
+    /* float: left; */
+    left: 0px;
+    text-align: center;
+  }
+  #ventajacontratar .contenedor {
+    padding: 20px;
+  }
+  #ventajacontratar ul.dos {
+    position: relative;
+    float: inherit;
+  }
+  #ventajacontratar img {
+    position: relative;
+    top: 0px;
+  }
+  #ventajacontratar img.dos {
+    position: relative;
+    top: 0px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+  }
+  #interesado h2 {
+    font-size: 45px;
+  }
+  #interesado .rojo {
+    margin-bottom: 10px;
+  }
+  #interesado .ban {
+    padding: 12px;
+    position: relative;
+    /* float: left; */
+    left: 0px;
+  }
+  /**cotizar*/
+  #banner7 {
+    background: url(../img/banner7movil.jpg) center no-repeat;
+    background-size: cover;
+    height: 575px;
+  }
+  #banner7 .cen {
+    position: relative;
+    top: -18px;
+  }
+  #cotizar #fld_2436872_1-wrap .checkbox:last-child label {
+    left: 0px;
+  }
+  #cotizar #fld_2436872_1-wrap .checkbox:first-child label {
+    right: 0px;
+  }
+  #cotizar .contenedor {
+    padding: 10px;
+  }
+  /**proveedor*/
   #banner8 {
     background: url(../img/banner8movil.jpg) center no-repeat;
     background-size: cover;
-    height: 700px;
+    height: 575px;
   }
   #banner8 .cen {
     position: relative;
-    top: -37px;
+    top: -72px;
+  }
+  #cotizar .especial {
+    padding: 10px;
+  }
+  #cotizar div#fld_5450434_1-wrap {
+    position: relative;
+    float: right;
+    left: 0px;
+    top: 0px;
+  }
+  #cotizar img.so {
+    max-width: inherit;
   }
 }

@@ -6,11 +6,13 @@
 
    
    <section id="ventajacontratar" class="template-section">
+   <div class="cont">
 <div class="ban">
     <hr>
         
         <h2> <div class="rojo">Ventajas de</div> CONTRATARNOS</h2>
 </div>
+          </div>
            <div class="contenedor">
                <h3>La ventaja de contratar nuestros servicios es que estará contratando también toda nuestra infraestructura, es decir, capital humano, maquinaria, equipamientos, utensilios, productos, entre otros. Además:</h3>
           
@@ -34,7 +36,7 @@
 
 
             </div>
-            <div class="grid">
+            <div class="grid segundaparte">
 
                 
                 <div class="col prueba_col">
@@ -67,7 +69,7 @@
    <section id="interesado" class="template-section">
 
         
-       
+       <div class="cont">
               
           
             <div class="grid">
@@ -79,7 +81,7 @@
                    <div class="min">
                     <p>Para Grupo COSISA es muy importante mantener un rápido contacto con nuestros clientes. Si estas interesado en recibir información detallada, una cotización o solicitar servicio contáctanos.</p>
                      <div class="izquierda">
-                    <a href="#contacto" id="paralelogramo" class="forma rojo"> <span>Cotice aquí</span></a>
+                    <a href="https://grupocosisa.com/cotizador/" id="paralelogramo" class="forma rojo"> <span>Cotice aquí</span></a>
                     </div>
                     </div>
                     </div>
@@ -94,7 +96,7 @@
 
             </div>
             
-    
+       </div>
     </section>
    
    

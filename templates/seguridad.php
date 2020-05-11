@@ -73,7 +73,7 @@ y lo hacemos ofreciéndole personal calificado,
 tecnología de punta y apoyo de corporaciones policiacas correspondientes.  
 <span>SI DESEA RECIBIR INFORMACIÓN DETALLADA, UNA COTIZACIÓN O SOLICITAR ESTE SERVICIO</span></h3>
 <div class="center">
-    <a href="#contacto" id="paralelogramo" class="forma rojo"> <span>Contáctenos</span></a>
+    <a href="https://grupocosisa.com/#contacto" id="paralelogramo" class="forma rojo"> <span>Contáctenos</span></a>
 </div>
 </div>
 </section>
